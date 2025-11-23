@@ -1,41 +1,34 @@
-# Exp.No:2c
-## BUILT-IN FUNCTIONS AND LAMBDA FUNCTIONS - RELATING TWO NUMBERS
+Exp.No:2(b)	FUNCTIONS-MODULO VALUE.
 
----
-
-### AIM  
-To write a Python program to check the relation between two numbers — whether one number is greater than, equal to, or lesser than another — using a lambda function.
-
----
-
+### AIM
+To write a Python program to define a function that accepts 2 values and return its  modulo value  
 ### ALGORITHM
 
-1. Begin the program.  
-2. Use `eval()` to get two numbers (`num1` and `num2`) from the user.  
-3. Define a lambda function `max` that takes two arguments `x` and `y`.  
-4. The lambda function compares the numbers and prints:
-   - If `x > y`, then it prints: "`num2` is smaller than `num1`".
-   - Otherwise, it prints: "`num1` is smaller than `num2`".
-5. Call the lambda function by passing `num1` and `num2` as arguments.  
-6. Terminate the program.
+Start
 
----
+Read integer a from the user
+
+Read integer b from the user
+
+Compute the remainder: c = a % b
+
+Print the result as "modulo is", c
+
+End
+
 
 ### PROGRAM
 ```
+def result (a,b):
+    c= a%b
+    print ("modulo is",c)
 
-x=int(input())
-y=int(input())
-if(x<y):
-    print(x,"is smaller than",y)
-else:
-    print(y,"is smaller than",x)
+a=int(input())
+b=int(input())
 ```
 
 ### OUTPUT
-
-<img width="959" height="273" alt="Screenshot 2025-08-31 203706" src="https://github.com/user-attachments/assets/df45d346-21f5-4b3c-b0c8-1cc05c870e64" />
-
+![image](https://github.com/gokulkrishnan2005/19CS301-Module2/blob/main/kk.png)
 
 ### RESULT
-Thus a a Python program to check the relation between two numbers — whether one number is greater than, equal to, or lesser than another — using a lambda function was executed successfully.
+Thus the python program  to define a function that accepts 2 values and return its  modulo value has been implemented and executed successfully.
